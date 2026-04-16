@@ -1,0 +1,9 @@
+#include <math.h>
+
+float juros_compostos(float capital, float taxa, int tempo) {
+    taxa = taxa / 100.0; // transforma % em decimal
+    float montante = capital * pow(1 + taxa, tempo);
+    float juros = montante - capital; // só os juros
+
+    return juros;
+}
