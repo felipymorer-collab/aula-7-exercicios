@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+float area(float r) {
+    return 3.14159 * r * r;
+}
+
+float diametro(float r) {
+    return 2 * r;
+}
+
+float circunferencia(float r) {
+    return 2 * 3.14159 * r;
+}
+
+int main() {
+    float r;
+
+    printf("Digite o raio: ");
+    scanf("%f", &r);
+
+    printf("Diametro: %.2f\n", diametro(r));
+    printf("Circunferencia: %.2f\n", circunferencia(r));
+    printf("Area: %.2f\n", area(r));
+
+    return 0;
+}
