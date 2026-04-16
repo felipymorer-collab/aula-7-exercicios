@@ -1,0 +1,13 @@
+#include <stdio.h>
+  int dobro(int x) {
+    return x * 2;
+  }
+    int main(){
+      int y;
+
+        printf("qual o raio?");
+        scanf("%d", &y);
+        int resultado = dobro(y);
+        printf(" seu diametro é igual á:""%d", resultado);
+        return 0;
+    }
