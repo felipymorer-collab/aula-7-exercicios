@@ -1,0 +1,12 @@
+#include <stdio.h>
+  float dobro(float x) {
+    return (x*x) * 3.14;
+  }
+    float main(){
+      float y;
+
+        printf("qual o raio?");
+        scanf("%f", &y);
+        float resultado = dobro(y);
+        printf(" a area é igual á:""%f", resultado);
+        return 0;
