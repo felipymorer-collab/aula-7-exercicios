@@ -1,1 +1,1 @@
-# aula-7-exercicios
+# aula-6-exercicios
